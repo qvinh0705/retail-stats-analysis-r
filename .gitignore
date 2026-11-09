@@ -1,0 +1,10 @@
+cat > .gitignore << 'EOF'
+# Dữ liệu tải từ Kaggle, không commit
+data/*.csv
+
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+Rplots.pdf
+EOF
